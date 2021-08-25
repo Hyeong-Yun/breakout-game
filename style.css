@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+
+#canvas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rules{
+    background-color: #eccc68;
+    display: none;
+}
+
+body{
+   background-color: #2f3542;
+   height: 100vh;
+}
+
+#canvas{
+    background-color: #fff;
+}
+
+ul{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    position: sticky;
+    height: 200px;
+    margin-top: 20px
+}
+
+ul li{
+    font-size: 20px;
+    color: #2f3542;
+}
+
+ul li p:first-child {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.rules-container{
+    margin-left: 20px;
+    padding: 10px 0;    
+}
+
+#rules{
+    border-radius: 10px;
+}
+
+#rules button{
+    margin-top: 5px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    outline: none;
+    transition: transform 100ms ease-in;
+    background-color: #dbab1a;
+    border:#eccc68
+}
+
+#rules button:hover{
+    transform: scale(1.02)
+}

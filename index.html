@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+   
+    <ul>
+        <li>
+            <p onclick = "onclickRules()">show rules</p>
+            <div id="rules">
+                <div class = "rules-container">
+                <h2>How To Play:</h2>
+                <p>
+                Use your right and left keys to move the paddle to bounce the ball up
+                and break the blocks.
+                </p>
+                <p>If you miss the ball, your score and the blocks will reset.</p>
+                <button id="close-btn" class="btn">Close</button>
+            </div>
+            </div>
+        </li>
+    </ul>
+
+    <div id = "canvas-container">
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+
+</div>
+    <script src = './script.js'></script>
+</body>
+</html>
